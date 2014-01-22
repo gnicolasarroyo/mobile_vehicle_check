@@ -1,0 +1,142 @@
+<!doctype html>
+<html class="no-js ui-mobile-rendering" lang="en">
+<head>
+  <title>Mobile Vehicle Check</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/jquery.mobile-1.4.0.min.css">
+  <script type="text/javascript" src="assets/js/lib/jquery.js"></script>
+  <script type="text/javascript" src="assets/js/lib/jquery.mobile-1.4.0.min.js"></script>
+</head>
+  <body>
+    <!-- # /LogIn --> <!-- # /LogOut -->
+    <div id="login" data-role="page" data-title="Log In">
+      
+          <div role="main" class="ui-content">
+                <h1 style="text-align: center">Mobile Vehicle Check</h1>
+                <ul data-role="listview" data-inset="true">
+                  <li>
+                      <img src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                      <h2>Login</h2>
+                      <p>Inicia sesión para acceder a Mobile Vehicle Check.</p>
+                  </li>
+                </ul>
+                <form>
+                  <div class="ui-field-contain">
+                    <label for="c-username">Usuario</label>
+                    <input type="text" name="c-username" id="c-username">
+                  </div>
+                  <div class="ui-field-contain">
+                    <label for="c-password">Contraseña</label>
+                    <input type="password" name="c-password" id="c-password">
+                  </div>
+                  <div class="ui-field-contain">
+                    <label for="c-sucursal" class="select">Sucursal</label>
+                    <select name="c-sucursal" id="c-sucursal">
+                        <option value="central">Central</option>
+                        <option value="suc1">Sucursal 1</option>
+                        <option value="suc2">Sucursal 2</option>
+                    </select>
+                  </div>
+                  <div class="ui-field-contain">  
+                    <a href="#appointments" data-enhanced="true" class="ui-shadow ui-btn ui-corner-all">Iniciar sesión</a>
+                  </div>  
+                </form>
+          </div><!-- /content -->
+
+    </div> <!-- /div#login -->
+    
+    <!-- # /Appointments/ -->
+    <div id="appointments" data-role="page" data-title="Appointments">
+      
+          <div data-role="header" data-position="fixed" data-theme="b">
+                <h1>Appointments</h1>
+                <div data-role="navbar">
+                  <ul>
+                    <li><a href="#" class="ui-btn-active">Pendiente</a></li>
+                    <li><a href="#">Realizado</a></li>
+                  </ul>
+                </div><!-- /navbar -->
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+            <ul data-role="listview" data-filter="true" data-filter-placeholder="Buscar..." data-inset="false">
+                <li data-role="list-divider">Friday, October 8, 2010 <span class="ui-li-count">2</span></li>
+                <li><a href="index.html">
+                <h2>Stephen Weber</h2>
+                <p><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
+                <p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
+                    <p class="ui-li-aside"><strong>6:24</strong>PM</p>
+                </a></li>
+                <li><a href="index.html">
+                <h2>jQuery Team</h2>
+                <p><strong>Boston Conference Planning</strong></p>
+                <p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and speakers.</p>
+                    <p class="ui-li-aside"><strong>9:18</strong>AM</p>
+                </a></li>
+                <li data-role="list-divider">Thursday, October 7, 2010 <span class="ui-li-count">1</span></li>
+                <li><a href="index.html">
+                <h2>Avery Walker</h2>
+                <p><strong>Re: Dinner Tonight</strong></p>
+                <p>Sure, let's plan on meeting at Highland Kitchen at 8:00 tonight. Can't wait!</p>
+                    <p class="ui-li-aside"><strong>4:48</strong>PM</p>
+                </a></li>
+            </ul>          
+          </div><!-- /content -->
+
+    </div> <!-- /div#appointments -->
+
+    <!-- # /Check/:turno -->
+    <div id="check" data-role="page" data-title="Check">
+      
+          <div data-role="header" data-position="fixed">
+                <h1>Check</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+                
+          </div><!-- /content -->
+
+    </div> <!-- /div#check -->
+
+    <!-- # /Check/:turno/External -->
+    <div id="checkexternal" data-role="page" data-title="Check External">
+      
+          <div data-role="header" data-position="fixed">
+                <h1>Check External</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+                
+          </div><!-- /content -->
+
+    </div> <!-- /div#checkexternal -->
+
+    <!-- # /Check/:turno/Internal -->
+    <div id="checkinternal" data-role="page" data-title="Check Internal">
+      
+          <div data-role="header" data-position="fixed">
+                <h1>Check Internal</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+                
+          </div><!-- /content -->
+
+    </div> <!-- /div#checkinternal -->
+
+    <!-- # /Configuration -->
+    <div id="configuration" data-role="page" data-title="Configuration">
+      
+          <div data-role="header" data-position="fixed">
+                <h1>Configuration</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+                
+          </div><!-- /content -->
+
+    </div> <!-- /div#configuration -->
+  </body>
+</html>
